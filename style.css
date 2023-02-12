@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* --------------------------------------BODY-------------------------------------- */
+
+body{
+    background: linear-gradient(110deg,  pink 5%, white 95%);
+}
+
+/* --------------------------------------BODY-------------------------------------- */
+/* -------------------------------------HEADER------------------------------------- */
+header{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+.header-div2{
+    display: flex;
+    align-items: baseline;
+    gap: 32px;
+}
+
+.header-botao{
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+/* -------------------------------------HEADER------------------------------------- */
+/* -------------------------------------ARTICLE1------------------------------------- */
+.article1{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.article1-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.article1-h1{
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.article1-p1{
+    padding-bottom: 20px;
+}
+
+.article1-img1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.article1-img2{
+    height: 400px;
+}
+
+.article1-botao{
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+}
+/* -------------------------------------ARTICLE1------------------------------------- */
+/* -------------------------------------ARTICLE2------------------------------------- */
+
+.article2{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.article2-h1{
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.article2-p{
+    padding-bottom: 20px;
+}
+
+.article2-img{
+    height: 200px;
+}
+/* -------------------------------------ARTICLE2------------------------------------- */
+
+/* -------------------------------------ARTICLE3------------------------------------- */
+
+.article3{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.article3-img{
+    height: 400px;
+    width: 380px;
+}
+
+.article3-div{
+    padding-left: 50px;
+}
+
+.article3-div2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.article3-div2-h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.article3-div2-p{
+    padding-bottom: 20px;
+}
+/* -------------------------------------ARTICLE3------------------------------------- */
+/* -------------------------------------FOOTER------------------------------------- */
+footer{
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-p{
+    padding-top: 15px;
+}
+
+.footer-h1{
+    font-size: 20px;
+}
